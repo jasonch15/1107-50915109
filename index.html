@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">50915109 莊捷森</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex justify-content-center align-items-center text-center">
+    <div>
+      <h1 class="display-4 text-glow">
+        <span id="typed-text"></span>
+      </h1>
+      <p class="lead">
+        展示我的學習旅程和專案，就像天上的繁星一樣閃耀
+      </p>
+
+
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about-me" class="py-5 bg-primary text-white text-center">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="lead">
+        I am a passionate developer from Taiwan, focused on creating innovative solutions using web technologies.
+        My journey began at National Formosa University, where I'm currently a student in the Department of Computer
+        Science and Information Engineering.
+        My student ID is 50915109, and I am committed to developing my skills through both coursework and personal
+        projects.
+      </p>
+      <img
+        src="https://m.media-amazon.com/images/M/MV5BNTY5NWViYjYtYWY3My00ZDhmLWFhNmUtY2EwMGYwZDZiMWE1XkEyXkFqcGc@._V1_QL75_UY190_CR74,0,190,190_.jpg"
+        class="rounded-circle my-3" alt="Profile Picture" />
+      <p class="lead">
+        Beyond my coursework, especially in the 'Web Programming' class, I spend much of my free time exploring and
+        experimenting with JavaScript libraries and interesting functions I come across. I’ve discovered many exciting
+        JavaScript applications, which I hope to leverage in a future career. Programming isn't just a skill for me;
+        it's something I genuinely enjoy and am always eager to dive deeper into.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Carousel Section -->
+  <section id="carousel" class="py-5">
+    <div class="container">
+      <div id="carouselExample" class="carousel slide shadow-sm" data-bs-ride="carousel">
+        <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpZV6Anvh9k1w0lIFk6I6l4MkfzbhGH1CHg&s"
+              class="d-block w-100" alt="First Slide" />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h3>Project 1</h3>
+              <h5>剪刀石頭布</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kk2IH8AH_MST6rfzOolb3cXBTG5sRIMiEyV3KcKlI5f01Wm3SlPhhn4c4cNPkgRJiNw&usqp=CAU"
+              class="d-block w-100" alt="Second Slide" />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h3>Project 2</h3>
+              <h5>記憶力大考驗(一)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://png.pngtree.com/thumb_back/fw800/back_pic/05/13/06/41599d2ab7d742f.jpg"
+              class="d-block w-100" alt="Third Slide" />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h3>Project 3</h3>
+              <h5>記憶力大考驗(二)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xVeYdAT1F7wRjlOf28s8cBdiYaf8lYFMAQ&s"
+              class="d-block w-100" alt="Third Slide" />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h3>Project 4</h3>
+              <h5>我的作品集</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://play-lh.googleusercontent.com/ok4zY2n4ztZwr8LAYOS-nbMEmNQ_8XwV-uos2zlng5S-lriEjkI5tgiiMrbw6ZTEpuY"
+              class="d-block w-100" alt="Third Slide" />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h3>Project 5</h3>
+              <h5>打磚塊</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DmLCy9PSJfFqO55mNTYOQLx3x8THsbokkw&s"
+              class="d-block w-100" alt="Third Slide" />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+              <h3>Project 6</h3>
+              <h5>JS推薦10個套件</h5>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="my-5 bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpZV6Anvh9k1w0lIFk6I6l4MkfzbhGH1CHg&s"
+              class="card-img-top" alt="Rock Paper Scissors" />
+            <div class="card-body">
+              <h5 class="card-title">Rock Paper Scissors</h5>
+              <p class="card-text">A simple game of Rock Paper Scissors.</p>
+              <a href="https://jasonch15.github.io/0918-50915109/" target="_blank" class="btn btn-outline-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kk2IH8AH_MST6rfzOolb3cXBTG5sRIMiEyV3KcKlI5f01Wm3SlPhhn4c4cNPkgRJiNw&usqp=CAU"
+              class="card-img-top" alt="Memory Challenge 1" />
+            <div class="card-body">
+              <h5 class="card-title">Memory Challenge (1)</h5>
+              <p class="card-text">Test your memory with this fun game.</p>
+              <a href="https://jasonch15.github.io/0925-50915109/" target="_blank" class="btn btn-outline-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm">
+            <img src="https://png.pngtree.com/thumb_back/fw800/back_pic/05/13/06/41599d2ab7d742f.jpg"
+              class="card-img-top" alt="Memory Challenge 2" />
+            <div class="card-body">
+              <h5 class="card-title">Memory Challenge (2)</h5>
+              <p class="card-text">
+                An advanced memory game for more challenge.
+              </p>
+              <a href="https://jasonch15.github.io/1009-50915109/" target="_blank" class="btn btn-outline-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xVeYdAT1F7wRjlOf28s8cBdiYaf8lYFMAQ&s"
+              class="card-img-top" alt="Memory Challenge 2" />
+            <div class="card-body">
+              <h5 class="card-title">My Profile</h5>
+              <p class="card-text">
+                A simple profile page to showcase my skills.
+              </p>
+              <a href="https://jasonch15.github.io/1016-50915109/" target="_blank" class="btn btn-outline-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm">
+            <img
+              src="https://play-lh.googleusercontent.com/ok4zY2n4ztZwr8LAYOS-nbMEmNQ_8XwV-uos2zlng5S-lriEjkI5tgiiMrbw6ZTEpuY"
+              class="card-img-top" alt="Memory Challenge 2" />
+            <div class="card-body">
+              <h5 class="card-title">Brick Breaker Game</h5>
+              <p class="card-text">
+                A simple brick breaker game using JavaScript.
+              </p>
+              <a href="https://jasonch15.github.io/1023-50915109/1023-50915109-main/" target="_blank"
+                class="btn btn-outline-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DmLCy9PSJfFqO55mNTYOQLx3x8THsbokkw&s"
+              class="card-img-top" alt="Memory Challenge 2" />
+            <div class="card-body">
+              <h5 class="card-title">10 recommended JS Frameworks</h5>
+              <p class="card-text">
+                10 recommended JavaScript libraries and frameworks.
+              </p>
+              <a href="https://jasonch15.github.io/1030-50915109/" target="_blank" class="btn btn-outline-primary">View
+                Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube Videos Section -->
+  <section id="videos" class="my-5">
+    <div class="container-fluid px-0">
+      <h2 class="text-center mb-4">開啟CC字幕</h2>
+      <div class="ratio ratio-16x9 mb-4">
+        <iframe src="https://www.youtube.com/embed/FdThaVF6qTM" title="YouTube video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>© 2024 Starry Portfolio | Designed by 50915109 莊捷森</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

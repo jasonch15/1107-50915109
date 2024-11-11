@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding-bottom: 80px; /* Ensure footer doesn't overlap content */
+    line-height: 1.6;
+    background-color: #000428; /* Deep space background color */
+    background-image: linear-gradient(45deg, #000428, #004e92); /* Starry sky effect */
+  }
+
+.text-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: url('https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p2001a-m-2000x1500.png') center/cover no-repeat;
+    color: white;
+}
+
+#hero h1 {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#hero p {
+    font-size: 1.25rem;
+}
+
+/* Carousel Section */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-weight: 600;
+}
+
+/* Video Section */
+.ratio {
+    margin-bottom: 20px;
+}
+
+#videos h2 {
+    font-weight: 600;
+}
+/* Portfolio Section */
+#portfolio h2 {
+    font-weight: 600;
+    color: #ffdd57; /* Star-like yellow */
+    margin-bottom: 2rem;
+}
+
+#portfolio .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+#portfolio .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#portfolio .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#portfolio .btn {
+    margin-top: 1rem;
+    padding: 10px 20px;
+}
+
+
+/* About Me Section */
+#about-me h2 {
+    font-weight: 600;
+    color: #ffdd57;
+}
+
+#about-me p {
+    font-size: 1.25rem;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
